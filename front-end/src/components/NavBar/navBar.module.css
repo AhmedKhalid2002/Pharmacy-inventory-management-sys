@@ -1,0 +1,32 @@
+.navBar{
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.navBar button:nth-child(1){
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  display: inline-block;
+  padding: 6px 15px;
+  border-right: 1px solid rgb(216, 216, 216);
+}
+.navBar button:nth-child(1) i{
+  font-size: 22px;
+  color: gray;
+}
+.navBar a{
+  color: black;
+  border: 1px solid black;
+  padding: 5px 15px;
+  border-radius: 5px;
+  height: fit-content;
+  background-color: transparent;
+  transition: .4s;
+}
+.navBar a:hover{
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  height: fit-content;
+  background-color: #39445d;
+}

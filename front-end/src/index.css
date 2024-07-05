@@ -1,0 +1,80 @@
+/* Start Global Styles */
+.cursor-pointer{
+  cursor: pointer;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.fs-14{
+  font-size: 14px;
+}
+.w-250{
+  width: 250px;
+}
+.w-60{
+  width: 60px;
+}
+.ps-60{
+  padding-left: 60px;
+}
+.ps-250{
+  padding-left: 250px;
+}
+.main-color{
+  color: #d4e0f1;
+}
+.afterHeader::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 40%;
+  height: 4px;
+  background-color: #39445d;
+  border-radius: 5px;
+}
+/* Start SideBar */
+.sideBar .online{
+  position: relative;
+  color: rgb(8 180 8);
+  font-weight: 500;
+}
+.sideBar .online::after{
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: rgb(8 180 8);
+  border-radius: 50%;
+  bottom: 22%;
+  left: 61%;
+}
+/* End SideBar */
+
+/* End Global Styles */
+.MainContainer{
+  display: flex;
+}
+.AppContainer{
+  transition: .5s;
+  flex: 1;
+  overflow-x: hidden;
+  min-height: calc(100vh);
+  min-width: 600px;
+}
+/* Start Medicine Page */
+  .categoryTable thead td{
+    background-color: #39445d ;
+    color: white;
+  }
+/* End Medicine Page */
+/* Start Inventory Page */
+  .inventoryTable thead td{
+    background-color: #39445d ;
+    color: white;
+  }
+/* End Inventory Page */

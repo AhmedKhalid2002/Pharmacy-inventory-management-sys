@@ -1,0 +1,24 @@
+.sideBar{
+  position: fixed ;
+  top: 0;
+  bottom: 0;
+  background-color: #39445d;
+  margin-bottom: 0;
+  /* width: 250px; */
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+}
+
+.sideBar li a{
+  display: block;
+  padding: 15px 20px;
+}
+.sideBar li a,
+.sideBar li i{
+  color: #d4e0f1;
+  font-size: 17px;
+}
+.sideBar li a[class='active']{
+  background-color: #0d6efd;
+}
